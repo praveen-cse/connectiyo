@@ -1,0 +1,49 @@
+{
+  "name": "connectiyo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "amqplib": "^0.5.3",
+    "bootstrap": "^4.3.1",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "jquery": "^3.4.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "sendgrid": "^5.2.3",
+    "survey-creator": "^1.0.91",
+    "survey-vue": "^1.0.91",
+    "surveyjs-widgets": "^1.0.91",
+    "vue": "^2.6.10",
+    "vue-html-loader": "^1.2.4",
+    "vue-native-notification": "^1.0.5",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-unit-mocha": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "chai": "^4.1.2",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
